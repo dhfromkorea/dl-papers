@@ -2,7 +2,6 @@
 mostly adapted from the Stanford's cs231n lecture on video classifaction.
 
 ### how is video different from images?
-
 * acrobatics: must watch in full to recognize which technique was performed.
 * long-term context: big zoomed-in image of a mouth. signing vs. eating vs. being examined by a dentist
 
@@ -83,22 +82,18 @@ the early phase
 	* trajectory
 * visualiizated of the 1st conv layers is quite informative. (one of 
 the filters simulate MBH)
-
-* multi task learning: two softmax functions
-
-
+* multi task learning used (did not understand this part...)
 
 ### Sequential Deep Learning for Human Action Recognition, Baccouche et al., 2011
 * https://ai2-s2-pdfs.s3.amazonaws.com/12b6/551a0f9f5aa62f7d37f03ebc66631e529c4b.pdf
 * suggested Convnet + LSTM. tested on KTH
 
 ### Long-term Recurrent Convolutional Networks for Visual Recognition and Description, Donahue et al., 2015
-* temporal pooling???
-* CRF: https://arxiv.org/pdf/1011.4088v1.pdf, https://www.youtube.com/watch?v=2BXoj778YU8
+* https://arxiv.org/pdf/1411.4389.pdf
+* https://www.youtube.com/watch?v=2BXoj778YU8 (did not quite understand this part)
 * tackle three visual problems(activity recognition, image captioning, video description)
 * added hand-calculated optical flow to the input (cheating on the sprit of end-to-end learning?) RGB, flowx(normalized), flowy(normalized), magnitude.
 * tested on https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/vision-and-language/tacos-multi-level-corpus/
-* ???
 
 
 ### Beyond Short Snippets: Deep Networks for Video Classification
@@ -117,7 +112,8 @@ the filters simulate MBH)
 * idea: let's make CNN recurrent! Take GRU and replace matrix multiplication with convolution. This way, we don't have to do 3d conv.
 * achieved empirical results comparable to state-of-the-art approaches previosuly done.
 
-multi task learning
-deconvolution
 ### etc
 * Youtube Video Classification Kaggle Competition: https://www.kaggle.com/c/youtube8m
+* https://www.mpi-inf.mpg.de/departments/computer-vision-and-multimodal-computing/research/vision-and-language/tacos-	multi-level-corpus/
+* KTH: http://www.nada.kth.se/cvap/actions/
+* UCF: http://crcv.ucf.edu/data/UCF101.php 
