@@ -26,3 +26,24 @@ Autoencoder
 Generative Adversarial Network
 
 
+
+https://github.com/terryum/awesome-deep-learning-papersersonal summary notes for deep learning papers
+https://github.com/songrotek/Deep-Learning-Papers-Reading-Roadmap
+
+##videos
+* Dense trajectories and motion boundary descriptors for action recognition Wang et al., 2013
+* Action Recognition with Improved Trajectories Wang and Schmid, 2013
+* 3D Convolutional Neural Networks for Human Action Recognition, Ji et al., 2010
+* Sequential Deep Learning for Human Action Recognition, Baccouche et al., 2011
+* Large-scale Video Classification with Convolutional Neural Networks, Karpathy et al., 2014
+* Learning Spatiotemporal Features with 3D Convolutional Networks, Tran et al. 2015
+* Two-Stream Convolutional Networks for Action Recognition in Videos, Simonyan and Zisserman 2014
+* T. Brox and J. Malik, “Large displacement optical flow: Descriptor matching in variational motion estimation,” 2011
+* Sequential Deep Learning for Human Action Recognition, Baccouche et al., 2011
+* Long-term Recurrent Convolutional Networks for Visual Recognition and Description, Donahue et al., 2015
+* Beyond Short Snippets: Deep Networks for Video Classification, Ng et al., 2015
+* Delving Deeper into Convolutional Networks for Learning Video Representations, Ballas et al., 2016
+
+
+
+
